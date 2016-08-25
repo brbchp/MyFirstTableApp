@@ -103,9 +103,9 @@
 		27D3585E1D606AB500E69F67 /* MyFirstTableApp */ = {
 			isa = PBXGroup;
 			children = (
+				272041431D6C8229008A426E /* AddTableViewController.swift */,
 				27D3585F1D606AB500E69F67 /* AppDelegate.swift */,
 				27D358911D63318400E69F67 /* DetailViewController.swift */,
-				272041431D6C8229008A426E /* AddTableViewController.swift */,
 				27D3588D1D606C3300E69F67 /* TableViewController.swift */,
 				27D3588F1D606F4500E69F67 /* TableViewCell.swift */,
 				27D358631D606AB500E69F67 /* Main.storyboard */,
