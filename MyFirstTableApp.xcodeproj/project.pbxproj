@@ -17,6 +17,8 @@
 		27D3588E1D606C3300E69F67 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D3588D1D606C3300E69F67 /* TableViewController.swift */; };
 		27D358901D606F4500E69F67 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D3588F1D606F4500E69F67 /* TableViewCell.swift */; };
 		27D358921D63318400E69F67 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D358911D63318400E69F67 /* DetailViewController.swift */; };
+		27E29CC81D7476DD00CF05F7 /* Cars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E29CC71D7476DD00CF05F7 /* Cars.swift */; };
+		27E29D081D7853A600CF05F7 /* MyFirstTableApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 27E29D061D7853A600CF05F7 /* MyFirstTableApp.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		27D3588D1D606C3300E69F67 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		27D3588F1D606F4500E69F67 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		27D358911D63318400E69F67 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		27E29CC71D7476DD00CF05F7 /* Cars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cars.swift; sourceTree = "<group>"; };
+		27E29D071D7853A600CF05F7 /* MyFirstTableApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyFirstTableApp.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				27D3588D1D606C3300E69F67 /* TableViewController.swift */,
 				27D3588F1D606F4500E69F67 /* TableViewCell.swift */,
 				27D358631D606AB500E69F67 /* Main.storyboard */,
+				27E29CC71D7476DD00CF05F7 /* Cars.swift */,
+				27E29D061D7853A600CF05F7 /* MyFirstTableApp.xcdatamodeld */,
 				27D358661D606AB500E69F67 /* Assets.xcassets */,
 				27D358681D606AB500E69F67 /* LaunchScreen.storyboard */,
 				27D3586B1D606AB500E69F67 /* Info.plist */,
@@ -266,9 +272,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				27D358901D606F4500E69F67 /* TableViewCell.swift in Sources */,
+				27E29D081D7853A600CF05F7 /* MyFirstTableApp.xcdatamodeld in Sources */,
 				27D358601D606AB500E69F67 /* AppDelegate.swift in Sources */,
 				27D3588E1D606C3300E69F67 /* TableViewController.swift in Sources */,
 				27D358921D63318400E69F67 /* DetailViewController.swift in Sources */,
+				27E29CC81D7476DD00CF05F7 /* Cars.swift in Sources */,
 				272041441D6C8229008A426E /* AddTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -517,6 +525,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		27E29D061D7853A600CF05F7 /* MyFirstTableApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				27E29D071D7853A600CF05F7 /* MyFirstTableApp.xcdatamodel */,
+			);
+			currentVersion = 27E29D071D7853A600CF05F7 /* MyFirstTableApp.xcdatamodel */;
+			path = MyFirstTableApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 27D358541D606AB500E69F67 /* Project object */;
 }
